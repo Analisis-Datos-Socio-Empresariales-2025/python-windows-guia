@@ -1,10 +1,8 @@
 # python-windows-guia
 
-# Guía para instalar Python y usar `virtualenv` en Windows
-
 ---
 
-## 1. Instalación de Python en Windows
+### Índice
 
 ### 1.1 Descargar Python
 
@@ -12,14 +10,22 @@
    Abre tu navegador y visita:  
    [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 
-2. **Seleccionar la versión de Python**  
+   ![image](https://github.com/user-attachments/assets/2a0fe2f8-111e-48cb-aba9-f05a628b97e4)
+
+   ![image](https://github.com/user-attachments/assets/850fe5f7-835e-49ae-bf76-8eff0f82d3c3)
+
+
+
+3. **Seleccionar la versión de Python**  
    - Haz clic en “Download Python 3.x.x” (la versión más reciente).  
    - En la sección “Windows Installer”, elige la opción correspondiente a tu arquitectura:
      - **Windows 64-bit** (la mayoría de equipos modernos).  
      - **Windows 32-bit** (si tu sistema es de 32 bits).
 
-3. **Descargar el instalador**  
-   Descarga el archivo `.exe` sugerido (por ejemplo, `python-3.11.0-amd64.exe` para 64 bits).
+4. **Descargar el instalador**  
+   Descarga el archivo `.exe` sugerido (por ejemplo, `python-3.12.0-amd64.exe` para 64 bits).
+   ![image](https://github.com/user-attachments/assets/b5455744-2d3b-4c24-a34a-c1d3192b7f66)
+
 
 ---
 
@@ -28,14 +34,18 @@
 1. **Ejecutar el instalador**  
    Haz doble clic en el `.exe` descargado para iniciar la instalación.
 
-2. **Marcar “Add Python to PATH”**  
+
+3. **Marcar “Add Python to PATH”**  
    - **MUY IMPORTANTE:** Antes de hacer clic en “Install Now”, marca la casilla **“Add Python 3.x to PATH”**.  
    - Esto permitirá invocar `python` y `pip` desde cualquier terminal sin rutas adicionales.
 
-3. **Instalar Python**  
+   ![image](https://github.com/user-attachments/assets/fa76d537-952e-4515-91a5-e95d467fced8)
+
+
+4. **Instalar Python**  
    Haz clic en **“Install Now”** y espera a que finalice el proceso.
 
-4. **Cerrar el instalador**  
+5. **Cerrar el instalador**  
    Cuando veas “Setup was successful”, haz clic en **“Close”**.
 
 ---
@@ -44,6 +54,9 @@
 
 1. **Abrir el Símbolo del sistema (CMD)**  
    - Presiona la tecla **Windows**, escribe `cmd` y presiona **Enter**.
+
+![image](https://github.com/user-attachments/assets/7646bf31-c34a-4023-80cb-b996b133637a)
+
 
 2. **Comprobar la versión de Python**  
    ```bat
@@ -62,6 +75,8 @@
    ```
    pip 23.x.x from C:\Users\<Usuario>\AppData\Local\Programs\Python\Python3x\lib\site-packages\pip (python 3.x)
    ```
+   ![image](https://github.com/user-attachments/assets/41cb60eb-1860-470f-87cb-8802b1e5325a)
+
 
 ---
 
@@ -115,19 +130,6 @@
      (venv) C:\Proyectos\MiProyecto>
      ```
 
-2. **En PowerShell**  
-   ```powershell
-   .\venv\Scripts\Activate.ps1
-   ```
-   - Si PowerShell bloquea scripts, abre PowerShell como Administrador y ejecuta:
-     ```powershell
-     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-     ```
-   - Luego cierra y abre una nueva ventana de PowerShell, y vuelve a activar:
-     ```powershell
-     .\venv\Scripts\Activate.ps1
-     ```
-
 ---
 
 ### 2.4 Instalar paquetes dentro del entorno virtual
@@ -171,7 +173,6 @@
 | Instalar `virtualenv`                     | `pip install virtualenv`                                        |
 | Crear un entorno virtual                  | `virtualenv venv`                                               |
 | Activar el entorno (CMD)                  | `venv\Scripts\activate`                                         |
-| Activar el entorno (PowerShell)           | `\.\venv\Scripts\Activate.ps1`                                    |
 | Instalar paquetes en el entorno           | `pip install <paquete>`                                         |
 | Verificar paquetes instalados             | `pip list`                                                      |
 | Desactivar el entorno virtual             | `deactivate`                                                    |
@@ -192,22 +193,13 @@
      ```
      Si funciona, usa `python -m pip install <paquete>`.
 
-3. **Error al activar el entorno en PowerShell**  
-   - Si PowerShell bloquea la ejecución de scripts, abre PowerShell como Administrador y ejecuta:
-     ```powershell
-     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-     ```
-   - Luego cierra y vuelve a abrir PowerShell para activar:
-     ```powershell
-     .\venv\Scripts\Activate.ps1
-     ```
-
-4. **Permisos insuficientes**  
+3. **Permisos insuficientes**  
    - Si al instalar paquetes en el Python global obtienes “Permission denied”, abre CMD como Administrador o instala los paquetes dentro de un entorno virtual.
 
-5. **Conflictos de versiones**  
+4. **Conflictos de versiones**  
    - Si trabajas con varios proyectos que requieren distintas versiones de un mismo paquete, usa entornos virtuales separados para cada uno y evita instalar paquetes globalmente.
 
 ---
 
-Con esta guía en formato Markdown, tendrás todo lo necesario para instalar Python en Windows, crear y usar entornos virtuales con `virtualenv`, y gestionar tus proyectos sin conflictos de dependencias. ¡Éxitos en tu desarrollo con Python!
+* Información generada con fines académicos.
+* Información generada con GenIA, supervisada
