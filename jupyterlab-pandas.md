@@ -136,3 +136,6 @@ Con el entorno virtual activo (o en tu Python global si decides no usar entorno 
 
 * Información generada con fines académicos.
 * Información generada con GenIA, supervisada
+
+---
+**René Elizalde - @reroes**

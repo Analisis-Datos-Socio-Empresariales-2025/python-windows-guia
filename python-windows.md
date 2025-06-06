@@ -201,3 +201,6 @@
 
 * Información generada con fines académicos.
 * Información generada con GenIA, supervisada
+
+---
+**René Elizalde - @reroes**
