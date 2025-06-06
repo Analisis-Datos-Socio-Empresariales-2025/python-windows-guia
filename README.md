@@ -26,6 +26,8 @@
 
 4. **Descargar el instalador**  
    Descarga el archivo `.exe` sugerido (por ejemplo, `python-3.12.0-amd64.exe` para 64 bits).
+   ![image](https://github.com/user-attachments/assets/b5455744-2d3b-4c24-a34a-c1d3192b7f66)
+
 
 ---
 
@@ -33,15 +35,19 @@
 
 1. **Ejecutar el instalador**  
    Haz doble clic en el `.exe` descargado para iniciar la instalación.
+   
 
-2. **Marcar “Add Python to PATH”**  
+3. **Marcar “Add Python to PATH”**  
    - **MUY IMPORTANTE:** Antes de hacer clic en “Install Now”, marca la casilla **“Add Python 3.x to PATH”**.  
    - Esto permitirá invocar `python` y `pip` desde cualquier terminal sin rutas adicionales.
+  
+   ![image](https://github.com/user-attachments/assets/fa76d537-952e-4515-91a5-e95d467fced8)
 
-3. **Instalar Python**  
+
+4. **Instalar Python**  
    Haz clic en **“Install Now”** y espera a que finalice el proceso.
 
-4. **Cerrar el instalador**  
+5. **Cerrar el instalador**  
    Cuando veas “Setup was successful”, haz clic en **“Close”**.
 
 ---
@@ -50,6 +56,9 @@
 
 1. **Abrir el Símbolo del sistema (CMD)**  
    - Presiona la tecla **Windows**, escribe `cmd` y presiona **Enter**.
+
+![image](https://github.com/user-attachments/assets/7646bf31-c34a-4023-80cb-b996b133637a)
+
 
 2. **Comprobar la versión de Python**  
    ```bat
@@ -68,6 +77,8 @@
    ```
    pip 23.x.x from C:\Users\<Usuario>\AppData\Local\Programs\Python\Python3x\lib\site-packages\pip (python 3.x)
    ```
+   ![image](https://github.com/user-attachments/assets/41cb60eb-1860-470f-87cb-8802b1e5325a)
+
 
 ---
 
