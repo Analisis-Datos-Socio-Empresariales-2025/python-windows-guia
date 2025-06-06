@@ -132,19 +132,6 @@
      (venv) C:\Proyectos\MiProyecto>
      ```
 
-2. **En PowerShell**  
-   ```powershell
-   .\venv\Scripts\Activate.ps1
-   ```
-   - Si PowerShell bloquea scripts, abre PowerShell como Administrador y ejecuta:
-     ```powershell
-     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-     ```
-   - Luego cierra y abre una nueva ventana de PowerShell, y vuelve a activar:
-     ```powershell
-     .\venv\Scripts\Activate.ps1
-     ```
-
 ---
 
 ### 2.4 Instalar paquetes dentro del entorno virtual
