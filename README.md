@@ -175,7 +175,6 @@
 | Instalar `virtualenv`                     | `pip install virtualenv`                                        |
 | Crear un entorno virtual                  | `virtualenv venv`                                               |
 | Activar el entorno (CMD)                  | `venv\Scripts\activate`                                         |
-| Activar el entorno (PowerShell)           | `\.\venv\Scripts\Activate.ps1`                                    |
 | Instalar paquetes en el entorno           | `pip install <paquete>`                                         |
 | Verificar paquetes instalados             | `pip list`                                                      |
 | Desactivar el entorno virtual             | `deactivate`                                                    |
@@ -196,22 +195,13 @@
      ```
      Si funciona, usa `python -m pip install <paquete>`.
 
-3. **Error al activar el entorno en PowerShell**  
-   - Si PowerShell bloquea la ejecución de scripts, abre PowerShell como Administrador y ejecuta:
-     ```powershell
-     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-     ```
-   - Luego cierra y vuelve a abrir PowerShell para activar:
-     ```powershell
-     .\venv\Scripts\Activate.ps1
-     ```
-
-4. **Permisos insuficientes**  
+3. **Permisos insuficientes**  
    - Si al instalar paquetes en el Python global obtienes “Permission denied”, abre CMD como Administrador o instala los paquetes dentro de un entorno virtual.
 
-5. **Conflictos de versiones**  
+4. **Conflictos de versiones**  
    - Si trabajas con varios proyectos que requieren distintas versiones de un mismo paquete, usa entornos virtuales separados para cada uno y evita instalar paquetes globalmente.
 
 ---
 
-Con esta guía en formato Markdown, tendrás todo lo necesario para instalar Python en Windows, crear y usar entornos virtuales con `virtualenv`, y gestionar tus proyectos sin conflictos de dependencias. ¡Éxitos en tu desarrollo con Python!
+* Información generada con fines académicos.
+* Información generada con GenIA, supervisada
