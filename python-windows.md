@@ -2,8 +2,6 @@
 
 ---
 
-### Índice
-
 ### 1.1 Descargar Python
 
 1. **Ir a la página oficial**  
