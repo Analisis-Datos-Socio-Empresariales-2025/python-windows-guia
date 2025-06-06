@@ -12,14 +12,20 @@
    Abre tu navegador y visita:  
    [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 
-2. **Seleccionar la versión de Python**  
+   ![image](https://github.com/user-attachments/assets/2a0fe2f8-111e-48cb-aba9-f05a628b97e4)
+
+   ![image](https://github.com/user-attachments/assets/850fe5f7-835e-49ae-bf76-8eff0f82d3c3)
+
+
+
+3. **Seleccionar la versión de Python**  
    - Haz clic en “Download Python 3.x.x” (la versión más reciente).  
    - En la sección “Windows Installer”, elige la opción correspondiente a tu arquitectura:
      - **Windows 64-bit** (la mayoría de equipos modernos).  
      - **Windows 32-bit** (si tu sistema es de 32 bits).
 
-3. **Descargar el instalador**  
-   Descarga el archivo `.exe` sugerido (por ejemplo, `python-3.11.0-amd64.exe` para 64 bits).
+4. **Descargar el instalador**  
+   Descarga el archivo `.exe` sugerido (por ejemplo, `python-3.12.0-amd64.exe` para 64 bits).
 
 ---
 
